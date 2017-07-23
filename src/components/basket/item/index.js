@@ -48,7 +48,7 @@ export default class BasketItem extends Component {
 					<input
 						type="button"
 						value="-"
-						onClick={() => updateQuantity(basketKey, --quantity)}
+						onClick={() => updateQuantity(basketKey, quantity - 1)}
 						class={`border ${style.quantityChange}`}
 					/>
 					<input
@@ -60,7 +60,7 @@ export default class BasketItem extends Component {
 					<input
 						type="button"
 						value="+"
-						onClick={() => updateQuantity(basketKey, ++quantity)}
+						onClick={() => updateQuantity(basketKey, quantity + 1)}
 						class={`ml1 border ${style.quantityChange}`}
 					/>
 				</div>
