@@ -1,0 +1,17 @@
+.title {
+  background-color: #faf9f9;
+}
+
+.section {
+  background-color: #FFF;
+}
+
+.body {
+  height: 0;
+  transition: height 500ms 500ms, opacity 500ms 0ms;
+}
+
+.open {
+  height: auto;
+  transition: height 500ms 0ms, opacity 500ms 500ms;
+}

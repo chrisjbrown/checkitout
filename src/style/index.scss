@@ -1,0 +1,42 @@
+/* Base Modules */
+@import url(https://unpkg.com/basscss@8.0.2/css/basscss.min.css);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import './variables';
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #f4f6f6;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+i {
+  position: relative;
+  top: 5px;
+}
+
+input:focus {
+	outline: 1px solid $input-focus;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

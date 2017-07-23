@@ -1,0 +1,36 @@
+{
+  "name": "checkitout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src && preact test",
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch"
+  },
+  "keywords": [],
+  "author": "Christopher Brown <chrisjosbrown@gmail.com>",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-synacor": "^1.0.1",
+    "if-env": "^1.0.0",
+    "preact-cli": "^1.4.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "preact": "^8.2.1",
+    "preact-compat": "^3.16.0",
+    "preact-material-components": "^1.0.15",
+    "preact-portal": "^1.1.2",
+    "preact-router": "^2.5.5",
+    "react-toolbox": "^2.0.0-beta.12",
+    "react-transition-group": "^2.2.0",
+    "sass-loader": "^6.0.6"
+  }
+}

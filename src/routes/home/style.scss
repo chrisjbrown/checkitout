@@ -1,0 +1,25 @@
+.home {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+.upload {
+	border: 2px dashed grey;
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+.uploadLabel {
+	width: 100%;
+	line-height: 5rem;
+}
+
+.remove {
+	width: 75px;
+	height: 75px
+}
