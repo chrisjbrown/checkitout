@@ -7,6 +7,7 @@
     "test": "eslint src && preact test",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build",
+    "deploy": "surge --project ./build --domain checkitout.surge.sh && open https://checkitout.surge.sh",
     "serve": "preact build && preact serve",
     "dev": "preact watch"
   },
@@ -20,7 +21,8 @@
     "eslint": "^4.2.0",
     "eslint-config-synacor": "^1.0.1",
     "if-env": "^1.0.0",
-    "preact-cli": "^1.4.0"
+    "preact-cli": "^1.4.0",
+    "surge": "^0.19.0"
   },
   "dependencies": {
     "node-sass": "^4.5.3",
