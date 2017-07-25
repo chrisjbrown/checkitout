@@ -31,8 +31,6 @@
     "preact-material-components": "^1.0.15",
     "preact-portal": "^1.1.2",
     "preact-router": "^2.5.5",
-    "react-toolbox": "^2.0.0-beta.12",
-    "react-transition-group": "^2.2.0",
     "sass-loader": "^6.0.6"
   }
 }
